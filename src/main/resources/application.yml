@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: graphql-kotlin
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/graphql
+    username: postgres
+    password: postgres
+
+graphql:
+  packages:
+    - "com.eremeev.graphql"
